@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>My To Do App</title>
 </head>
+
 <body>
 
   <h1>My What To Do App</h1>
@@ -28,14 +30,14 @@
       // Done button
       var doneBtn = document.createElement("button");
       doneBtn.textContent = "Done";
-      doneBtn.onclick = function() {
+      doneBtn.onclick = function () {
         li.style.textDecoration = "line-through";
       };
 
       // Delete button
       var delBtn = document.createElement("button");
       delBtn.textContent = "Delete";
-      delBtn.onclick = function() {
+      delBtn.onclick = function () {
         li.remove();
       };
 
@@ -49,4 +51,5 @@
   </script>
 
 </body>
+
 </html>
