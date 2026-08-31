@@ -1,0 +1,23 @@
+/* styles.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fdfdfd;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: inline; /* makes navbar items inline */
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+h1, h2 {
+  color: #444;
+}
